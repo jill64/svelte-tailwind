@@ -29,7 +29,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": [],
+  "keywords": [
+    "config",
+    "sveltekit",
+    "tailwind"
+  ],
   "scripts": {
     "dev": "pnpm build:lib && cd demo && pnpm dev",
     "build": "pnpm build:lib && pnpm build:demo",
