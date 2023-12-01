@@ -19,7 +19,7 @@ npm i @jill64/svelte-tailwind
 postcss.config.js
 
 ```js
-import { postcssConfig } from '../dist/index.js'
+import { postcssConfig } from '@jill64/svelte-tailwind'
 
 /** @type {import('@jill64/svelte-tailwind').PostcssConfig} */
 export default postcssConfig({
