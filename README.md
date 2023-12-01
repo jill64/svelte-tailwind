@@ -21,7 +21,7 @@ postcss.config.js
 ```js
 import { postcssConfig } from '../dist/index.js'
 
-/** @type {import('../dist/index.js').PostcssConfig} */
+/** @type {import('@jill64/svelte-tailwind').PostcssConfig} */
 export default postcssConfig({
   // ...
 })
@@ -32,7 +32,7 @@ tailwind.config.js
 ```js
 import { tailwindConfig } from '@jill64/svelte-tailwind'
 
-/** @type {import('../dist/index.js').TailwindConfig} */
+/** @type {import('@jill64/svelte-tailwind').TailwindConfig} */
 export default tailwindConfig({
   // ...
 })
