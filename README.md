@@ -1,5 +1,17 @@
 <!----- BEGIN GHOST DOCS HEADER ----->
 
+# svelte-tailwind
+
+[![ci.yml](https://github.com/jill64/svelte-tailwind/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/svelte-tailwind/actions/workflows/ci.yml)
+
+🌀 Simplified TailwindCSS Configuration for Svelte
+
+## Installation
+
+```sh
+npm i @jill64/svelte-tailwind
+```
+
 <!----- END GHOST DOCS HEADER ----->
 
 ## Usage
