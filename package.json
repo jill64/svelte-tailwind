@@ -1,7 +1,7 @@
 {
   "name": "@jill64/svelte-tailwind",
   "description": "🌀 Simplified TailwindCSS Configuration for Svelte",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",
@@ -39,7 +39,7 @@
     "build": "pnpm build:lib && pnpm build:demo",
     "build:lib": "tsc && npx publint",
     "build:demo": "cd demo && pnpm build",
-    "preview": "cd demo && pnpm preview",
+    "preview": "pnpm build:lib && cd demo && pnpm preview",
     "prepack": "pnpm build",
     "lint": "pnpm lint:lib && pnpm lint:demo",
     "lint:lib": "npx eslint .",
@@ -61,7 +61,7 @@
     "@jill64/tailwind-grid-auto": "1.2.0",
     "@jill64/tailwind-reactions": "1.1.0",
     "autoprefixer": "10.4.16",
-    "postcss": "8.4.31",
+    "postcss": "8.4.32",
     "postcss-load-config": "5.0.0",
     "tailwindcss": "3.3.5"
   }
