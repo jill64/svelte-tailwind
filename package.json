@@ -10,10 +10,7 @@
   "homepage": "https://github.com/jill64/svelte-tailwind#readme",
   "files": [
     "dist",
-    "!**/*.test.*",
-    "!**/*.spec.*",
-    "!*.test.*",
-    "!*.spec.*"
+    "!**/*.test.*"
   ],
   "exports": {
     ".": {
