@@ -6,13 +6,13 @@
 
 🌀 Simplified TailwindCSS Configuration for Svelte
 
+<!----- END GHOST DOCS HEADER ----->
+
 ## Installation
 
 ```sh
 npm i @jill64/svelte-tailwind
 ```
-
-<!----- END GHOST DOCS HEADER ----->
 
 ## Usage
 
