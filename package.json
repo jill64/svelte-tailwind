@@ -28,6 +28,8 @@
   },
   "keywords": [
     "config",
+    "css",
+    "postcss",
     "sveltekit",
     "tailwind"
   ],
