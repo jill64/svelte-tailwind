@@ -63,7 +63,7 @@
     "typescript": "5.4.3"
   },
   "dependencies": {
-    "@jill64/tailwind-grid-auto": "1.3.16",
+    "@jill64/tailwind-grid-auto": "1.3.17",
     "@jill64/tailwind-reactions": "1.2.16",
     "autoprefixer": "10.4.19",
     "postcss": "8.4.38",
