@@ -7,7 +7,7 @@
   "license": "MIT",
   "author": {
     "name": "jill64",
-    "email": "intents.turrets0h@icloud.com",
+    "email": "contact@jill64.dev",
     "url": "https://github.com/jill64",
     "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-tailwind.git",
-    "image": "https://opengraph.githubassets.com/1720228ccc22a5a353d4fe87e757946d356aa4ee9276a9d1a980e9b30741e44b/jill64/svelte-tailwind"
+    "image": "https://opengraph.githubassets.com/e336a7c6e37e526fbe60df7b8676ebbed1a3fab8b70c32f88a4f7a528b288cb4/jill64/svelte-tailwind"
   },
   "publishConfig": {
     "access": "public"
