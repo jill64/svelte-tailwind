@@ -1,7 +1,7 @@
 {
   "name": "@jill64/svelte-tailwind",
   "description": "🌀 Simplified TailwindCSS Configuration for Svelte",
-  "version": "1.2.35",
+  "version": "1.2.36",
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",
@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-tailwind.git",
-    "image": "https://opengraph.githubassets.com/0170a491bf6fbd4f9c2ea0ac1762e33271cbc545dc1080494d316b438deb26a2/jill64/svelte-tailwind"
+    "image": "https://opengraph.githubassets.com/443fd0e528a24f2abd77337b0e3732c4b39f64c7af1b2403b7d70c37552b4e5a/jill64/svelte-tailwind"
   },
   "publishConfig": {
     "access": "public"
@@ -63,7 +63,7 @@
     "typescript": "5.4.5"
   },
   "dependencies": {
-    "@jill64/tailwind-grid-auto": "1.3.25",
+    "@jill64/tailwind-grid-auto": "1.3.26",
     "@jill64/tailwind-reactions": "1.2.23",
     "autoprefixer": "10.4.19",
     "postcss": "8.4.38",
