@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-tailwind.git",
-    "image": "https://opengraph.githubassets.com/5aa236d3b5d0e076f5c5ffa5f0602a3aa7456ed4c7f598c3e725ce78dee55c24/jill64/svelte-tailwind"
+    "image": "https://opengraph.githubassets.com/b3116a37a00bd959c801b598c300a0294aa8bd5a1900a29faef6f2c661d4c846/jill64/svelte-tailwind"
   },
   "publishConfig": {
     "access": "public"
@@ -56,7 +56,7 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@jill64/eslint-config-ts": "1.1.36",
+    "@jill64/eslint-config-ts": "1.1.37",
     "@jill64/playwright-config": "2.4.1",
     "@jill64/prettier-config": "1.0.0",
     "@playwright/test": "1.46.1",
