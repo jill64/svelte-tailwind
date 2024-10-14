@@ -28,8 +28,8 @@ importers:
         version: 3.4.13
     devDependencies:
       '@jill64/eslint-config-ts':
-        specifier: 1.1.44
-        version: 1.1.44(typescript@5.6.3)
+        specifier: 1.1.45
+        version: 1.1.45(typescript@5.6.3)
       '@jill64/playwright-config':
         specifier: 2.4.1
         version: 2.4.1(@playwright/test@1.48.0)
@@ -446,8 +446,8 @@ packages:
     peerDependencies:
       svelte: ^4.0.0
 
-  '@jill64/eslint-config-ts@1.1.44':
-    resolution: {integrity: sha512-Wl+styW6VGiBM1oSMiMPBFE46R32PCAPhCAz3OEOa5bEHZMjQFcdOC8tX6+ywmawb+65g8Qqn/NdF5EYMyVpJQ==}
+  '@jill64/eslint-config-ts@1.1.45':
+    resolution: {integrity: sha512-mklhr4BxKASwXEPgVLKHTTweBzxw5Afz7KREsQ/bgljeLi4yCV/MUq1KGlgk9D/eNZrGLyBgGGTl0DnOIiFnYg==}
 
   '@jill64/playwright-config@2.4.1':
     resolution: {integrity: sha512-7GsgcCL8qVIW0jnKwavdhLXaGY0iUcF3ca26LA74C65lyE5xnrHrSHigRcaskawrvzkzg/D4hx9SHX3RravGrg==}
@@ -2239,13 +2239,13 @@ snapshots:
       - ts-node
       - typescript
 
-  '@jill64/eslint-config-ts@1.1.44(typescript@5.6.3)':
+  '@jill64/eslint-config-ts@1.1.45(typescript@5.6.3)':
     dependencies:
       '@eslint/js': 8.57.1
       '@types/eslint': 8.56.7
       '@types/eslint-config-prettier': 6.11.3
-      '@typescript-eslint/eslint-plugin': 8.8.1(@typescript-eslint/parser@8.8.1(eslint@8.57.1)(typescript@5.6.3))(eslint@8.57.1)(typescript@5.6.3)
-      '@typescript-eslint/parser': 8.8.1(eslint@8.57.1)(typescript@5.6.3)
+      '@typescript-eslint/eslint-plugin': 8.9.0(@typescript-eslint/parser@8.9.0(eslint@8.57.1)(typescript@5.6.3))(eslint@8.57.1)(typescript@5.6.3)
+      '@typescript-eslint/parser': 8.9.0(eslint@8.57.1)(typescript@5.6.3)
       eslint: 8.57.1
       eslint-config-prettier: 9.1.0(eslint@8.57.1)
       eslint-plugin-deprecation: 3.0.0(eslint@8.57.1)(typescript@5.6.3)
