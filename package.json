@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-tailwind.git",
-    "image": "https://opengraph.githubassets.com/32b01665e90ef78942e2d34670c2aa2c450c788ddfe190926897a241cba7033e/jill64/svelte-tailwind"
+    "image": "https://opengraph.githubassets.com/ec283a79958f3a6fc65d468fbac4dceb02d3e8f1df557732f3910d8a0daf1910/jill64/svelte-tailwind"
   },
   "publishConfig": {
     "access": "public"
