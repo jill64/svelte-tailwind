@@ -10,7 +10,7 @@
     "format": "npx @jill64/psx"
   },
   "devDependencies": {
-    "@jill64/eslint-config-svelte": "2.0.5",
+    "@jill64/eslint-config-svelte": "2.0.6",
     "@jill64/sentry-sveltekit-cloudflare": "2.0.6",
     "@sveltejs/adapter-cloudflare": "5.0.1",
     "@sveltejs/kit": "2.16.1",
