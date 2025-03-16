@@ -40,34 +40,37 @@
     "tailwind"
   ],
   "scripts": {
-    "dev": "pnpm build:lib && cd demo && pnpm dev",
-    "build": "pnpm build:lib && pnpm build:demo",
-    "build:lib": "tsc && npx publint",
-    "build:demo": "cd demo && pnpm build",
-    "preview": "pnpm build:lib && cd demo && pnpm preview",
-    "prepack": "pnpm build",
-    "lint": "pnpm lint:lib && pnpm lint:demo",
-    "lint:lib": "npx eslint .",
-    "lint:demo": "cd demo && pnpm lint",
-    "format": "pnpm format:lib && pnpm format:demo",
-    "format:lib": "npx prettier -w .",
-    "format:demo": "cd demo && pnpm format",
+    "dev": "bun build:lib && cd demo && bun dev",
+    "build": "bun build:lib && bun build:demo",
+    "build:lib": "tsc && bunx publint",
+    "build:demo": "cd demo && bun build",
+    "preview": "bun build:lib && cd demo && bun preview",
+    "prepack": "bun build",
+    "lint": "bun lint:lib && bun lint:demo",
+    "lint:lib": "bunx eslint .",
+    "lint:demo": "cd demo && bun lint",
+    "format": "bun format:lib && bun format:demo",
+    "format:lib": "bunx prettier -w .",
+    "format:demo": "cd demo && bun format",
     "test": "playwright test"
   },
   "prettier": "@jill64/prettier-config",
+  "workspaces": [
+    "demo/*"
+  ],
   "devDependencies": {
-    "@jill64/eslint-config-ts": "2.0.5",
-    "@jill64/playwright-config": "2.4.2",
+    "@jill64/eslint-config-ts": "2.0.17",
+    "@jill64/playwright-config": "3.0.0",
     "@jill64/prettier-config": "1.0.0",
-    "@playwright/test": "1.50.1",
-    "typescript": "5.7.3"
+    "@playwright/test": "1.51.0",
+    "typescript": "5.8.2"
   },
   "dependencies": {
     "@jill64/tailwind-grid-auto": "1.4.2",
     "@jill64/tailwind-reactions": "1.3.2",
-    "autoprefixer": "10.4.20",
-    "postcss": "8.5.1",
+    "autoprefixer": "10.4.21",
+    "postcss": "8.5.3",
     "postcss-load-config": "6.0.1",
-    "tailwindcss": "3.4.17"
+    "tailwindcss": "4.0.14"
   }
 }
